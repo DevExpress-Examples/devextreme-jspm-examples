@@ -15,8 +15,8 @@ JSPM with Knockout | [jspm-knockout](jspm-knockout/)
 
 ## More Examples
 
-[DataGrid for DevExtreme - How to use DataGrid in an MVC 5 App](https://github.com/DevExpress-Examples/devextreme-datagrid-mvc5)
-[DataGrid for DevExtreme - How to use DataGrid with a WebAPI](https://github.com/DevExpress-Examples/devextreme-datagrid-with-webapi)
-[DevExtreme with Webpack](https://github.com/DevExpress-Examples/devextreme-webpack-examples)
-[DevExtreme with RequireJS](https://github.com/DevExpress-Examples/devextreme-requirejs-examples)
-[DevExtreme with Vite - How to create a bundle with DevExtreme Vue components](https://github.com/DevExpress-Examples/devextreme-vite-vue-bundling)
+- [DataGrid for DevExtreme - How to use DataGrid in an MVC 5 App](https://github.com/DevExpress-Examples/devextreme-datagrid-mvc5)
+- [DataGrid for DevExtreme - How to use DataGrid with a WebAPI](https://github.com/DevExpress-Examples/devextreme-datagrid-with-webapi)
+- [DevExtreme with Webpack](https://github.com/DevExpress-Examples/devextreme-webpack-examples)
+- [DevExtreme with RequireJS](https://github.com/DevExpress-Examples/devextreme-requirejs-examples)
+- [DevExtreme with Vite - How to create a bundle with DevExtreme Vue components](https://github.com/DevExpress-Examples/devextreme-vite-vue-bundling)

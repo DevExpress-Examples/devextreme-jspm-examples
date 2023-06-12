@@ -1,17 +1,17 @@
-# DevExtreme with jspm and AngularJS example
+# DevExtreme with JSPM and AngularJS example
 
-This project demonstrates how to use DevExtreme widgets loading only modules with the required functionality. This demo shows the dxButton widget with the alert dialog as an example. Here, the [AngularJS](https://angularjs.org/) approach is used. EThe example requires installed [jspm](http://jspm.io/) package manager.
+This project demonstrates how to use DevExtreme widgets loading only modules with the required functionality. This demo shows the dxButton widget with the alert dialog as an example. Here, the [AngularJS](https://angularjs.org/) approach is used. EThe example requires installed [JSPM](http://jspm.io/) package manager.
 
 ## Getting Started
 
 1. Clone the repository
  ``` text
- git clone https://github.com/devexpress/devextreme-examples.git
+ git clone https://github.com/DevExpress-Examples/devextreme-jspm-examples.git
  ```
 
 2. Go to the project folder
  ``` text
- cd devextreme-examples/jspm-angularjs
+ cd jspm-angularjs
  ```
 
 3. Install the required Node.js modules

@@ -1,17 +1,17 @@
-# DevExtreme with jspm and Knockout example
+# DevExtreme with JSPM and Knockout example
 
-This project demonstrates how to use DevExtreme widgets loading only modules with the required functionality. This demo shows the dxButton widget with the alert dialog as an example. Here, the [Knockout](http://knockoutjs.com/) approach is used. The example requires installed [jspm](http://jspm.io/) package manager.
+This project demonstrates how to use DevExtreme widgets loading only modules with the required functionality. This demo shows the dxButton widget with the alert dialog as an example. Here, the [Knockout](http://knockoutjs.com/) approach is used. The example requires installed [JSPM](http://jspm.io/) package manager.
 
 ## Getting Started
 
 1. Clone the repository
  ``` text
- git clone https://github.com/devexpress/devextreme-examples.git
+ git clone https://github.com/DevExpress-Examples/devextreme-jspm-examples.git
  ```
 
 2. Go to the project folder
  ``` text
- cd devextreme-examples/jspm-knockout
+ cd jspm-knockout
  ```
 
 3. Install the required Node.js modules
@@ -28,4 +28,4 @@ This project demonstrates how to use DevExtreme widgets loading only modules wit
 
 ## Resources
 
-For detailed information on modularity, see the [DevExtreme Modularity Guide](http://js.devexpress.com/Documentation/Guide/Common/Modularity?approach=Knockout).
+For detailed information on modularity, see the [DevExtreme Modularity Guide](http://js.devexpress.com/Documentation/Guide/Common/Modularity).

@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # DevExtreme with JSPM
 
-Each example in this section holds a simple application that contains a [dxButton](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxButton/) widget with an [alert dialog](https://js.devexpress.com/Documentation/ApiReference/Common/Utils/ui/dialog/#alertmessageHtml_title). It is enough to demonstrate how to link the required DevExtreme modules to the application using [JSPM](http://jspm.io/) with [jQuery](http://jquery.com/), [AngularJS](https://angularjs.org/) or [Knockout](http://knockoutjs.com/) approach. All examples require Node.js and npm to install [DevExtreme](http://js.devexpress.com/) package and its dependencies. Basic principles of working with these tools would be also helpful.
+Each example in this section holds a simple application that contains a [dxButton](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxButton/) widget with an [alert dialog](https://js.devexpress.com/Documentation/ApiReference/Common/Utils/ui/dialog/#alertmessageHtml_title). This application demonstrates how to use [JSPM](http://jspm.io/) with [jQuery](http://jquery.com/), [AngularJS](https://angularjs.org/) or [Knockout](http://knockoutjs.com/) approach. All examples require Node.js and npm to install [DevExtreme](http://js.devexpress.com/) package and its dependencies.
 
 Used Technologies: | Example Name:
 ------------------ | --------------

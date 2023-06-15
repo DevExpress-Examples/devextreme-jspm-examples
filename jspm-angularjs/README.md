@@ -1,6 +1,6 @@
 # DevExtreme with JSPM and AngularJS example
 
-This project demonstrates how to use DevExtreme widgets loading only modules with the required functionality. This demo shows the dxButton widget with the alert dialog as an example. Here, the [AngularJS](https://angularjs.org/) approach is used. EThe example requires installed [JSPM](http://jspm.io/) package manager.
+This [AngularJS](https://angularjs.org/) example displays DevExtreme widgets loading only required modules. The application contains a button (a [dxButton](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxButton/) widget). When you click this button, an [alert dialog](https://js.devexpress.com/Documentation/ApiReference/Common/Utils/ui/dialog/#alertmessageHtml_title) appears. The example requires [JSPM](http://jspm.io/) package manager to be installed.
 
 ## Getting Started
 

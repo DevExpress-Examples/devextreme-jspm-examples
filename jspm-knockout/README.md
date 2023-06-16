@@ -19,12 +19,12 @@ This [Knockout](http://knockoutjs.com/) example displays DevExtreme widgets that
  npm install
  ```
 
-4. Use the development server
+4. Use the development server.
  ``` text
  npm start
  ```
 
-5. Open `http://127.0.0.1:8080/` in your browser
+5. Open `http://127.0.0.1:8080/` in your browser.
 
 ## Resources
 

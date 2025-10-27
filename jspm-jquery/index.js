@@ -6,9 +6,11 @@ import 'devextreme/integration/jquery';
 import 'devextreme/ui/button';
 import { alert } from 'devextreme/ui/dialog';
 
-$("#myButton").dxButton({
-  text: "Say 'Hello world'",
-  onClick: function() {
-    alert('Hello world!', '', false);
-  }
+$(function() {
+  $("#myButton").dxButton({
+    text: "Say 'Hello world'",
+    onClick: function() {
+      alert('Hello world!', '', false);
+    }
+  });
 });

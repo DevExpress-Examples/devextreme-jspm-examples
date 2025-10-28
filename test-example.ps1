@@ -7,6 +7,36 @@ $projectDir = Join-Path $scriptDir "jspm-jquery"
 $packageJsonPath = Join-Path $projectDir "package.json"
 $configJsPath = Join-Path $projectDir "config.js"
 
+# Check for Git installation
+Write-Host "Checking prerequisites..." -ForegroundColor Cyan
+$gitInstalled = $null -ne (Get-Command git -ErrorAction SilentlyContinue)
+
+if (-not $gitInstalled) {
+    Write-Host "ERROR: Git is not installed!" -ForegroundColor Red
+    Write-Host ""
+    Write-Host "JSPM requires Git to download packages from GitHub." -ForegroundColor Yellow
+    Write-Host "Please install Git from: https://git-scm.com/downloads" -ForegroundColor Yellow
+    Write-Host ""
+    Write-Host "After installing Git:" -ForegroundColor Cyan
+    Write-Host "  1. Restart your terminal/PowerShell" -ForegroundColor White
+    Write-Host "  2. Run this script again" -ForegroundColor White
+    Write-Host ""
+    exit 1
+}
+
+Write-Host "✓ Git is installed" -ForegroundColor Green
+
+# Check for Node.js
+$nodeInstalled = $null -ne (Get-Command node -ErrorAction SilentlyContinue)
+if (-not $nodeInstalled) {
+    Write-Host "ERROR: Node.js is not installed!" -ForegroundColor Red
+    Write-Host "Please install Node.js from: https://nodejs.org/" -ForegroundColor Yellow
+    exit 1
+}
+
+Write-Host "✓ Node.js is installed" -ForegroundColor Green
+Write-Host ""
+
 if ([string]::IsNullOrEmpty($buildVersion)) {
     Write-Host "Build version is not specified. Skipping version update." -ForegroundColor Yellow
 } else {
